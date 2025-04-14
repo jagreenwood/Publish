@@ -21,7 +21,8 @@ internal extension CommandLine {
             string = "\(emoji) \(string)"
         }
 
-        fputs(string, kind.target)
+        // fputs(string, kind.target)
+        print("Debug: \(string)")
     }
 }
 
